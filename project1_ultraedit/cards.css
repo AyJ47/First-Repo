@@ -1,0 +1,35 @@
+.cards{
+            
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 20px;
+}
+.card{
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+}
+.download2{
+    width: 135px;
+    border-radius: 5px;
+    margin: 25px 0px 0px 0px;
+}
+.spc{
+    margin: 40px 0px 0px 0px;
+}
+.hh{
+    margin: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.hb{
+    font-size: 12px;
+}
+.card .xtra{
+    font-size: 8px;
+}
+@media screen and (max-width: 975px){
+    .cards{
+        grid-template-columns: 300px;
+    }
+}

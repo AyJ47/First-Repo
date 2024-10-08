@@ -1,0 +1,26 @@
+.nav{
+    /* border: 2px solid grey;
+    box-shadow: 0px 0px 90px 0px; */
+    list-style-type: none;
+    background-color: white;
+    display: flex;
+    gap: 25px;
+    height: 15vh;
+    align-items: center;
+    justify-content: flex-end;
+}
+.item{
+    background-color: white;
+}
+.lang{
+    margin: 10px 150px 0px 0px;
+}
+.lang img{
+    height: 25px;
+}
+.logo{
+    margin: 0px 450px 0px 140px;
+}
+.logo img{
+    height: 55px;
+}

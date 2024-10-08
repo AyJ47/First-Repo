@@ -1,0 +1,45 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#bb{
+    font-weight: 650;
+}
+#cc{
+    font-size: 28px;
+}
+#one{
+    font-size: 45px;
+    font-weight:350;
+    margin: 50px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+}
+#two{
+    font-size:25px;
+    width: 60vw;
+}
+#three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#download{
+    width: 300px;
+    margin: 50px;
+    border-radius: 5px;
+}
+#reviews{
+    width: 100px;
+    height: 30px;
+    margin: 0px 0px 0px 30px;
+}
+#icon{
+    width: 55px;
+    margin: 15px;
+}
